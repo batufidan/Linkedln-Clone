@@ -20,7 +20,7 @@ const Login = (props) => {
                 <img src="/images/login-hero.svg" alt="" />
             </Hero>
             <Form>
-                <Google>
+                <Google onClick={() => props.signIn(props)}>
                     <img src="/images/google.svg" alt="" />
                     Sign in with Google
                 </Google>
@@ -171,7 +171,11 @@ const mapStateToProps = (state) => {
     return {};
 };
 
-const mapDispatchToProps = (dispatch) => ({});
 
-export default connect(mapStateToProps, mapDispatchToProps)(Login);
+export default connect(mapStateToProps)(Login);
+
+
+4:04:23
+
+
 
