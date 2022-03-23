@@ -250,10 +250,5 @@ const Work = styled(User)`
   border-left: 1px solid rgba(0, 0, 0, 0.08);
 `;
 
-
-
-
-
-
 export default Header;
 
