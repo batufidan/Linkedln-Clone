@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import React from 'react'
-
 const  Main = (props) => {
   return (
     <Container>
@@ -14,7 +13,6 @@ const  Main = (props) => {
                 <img src="/images/photo.svg" alt="" />
                 <span>Photo</span>
             </button>
-
             <button>
                 <img src="/images/video-icon.svg" alt="" />
                 <span>Video</span>
