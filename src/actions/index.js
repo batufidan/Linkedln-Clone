@@ -1,5 +1,4 @@
 import {auth, provider} from "../firebase";
-
 export function signAPI() {
     return (dispatch) => {
         auth
@@ -8,7 +7,5 @@ export function signAPI() {
             console.log(payload);
     })
     .catch((error) => alert(error.message));
-    };
-
-    
+    };    
 }
