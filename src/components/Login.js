@@ -171,9 +171,7 @@ const mapStateToProps = (state) => {
     return {};
 };
 
-
 export default connect(mapStateToProps)(Login);
-
 
 4:04:23
 

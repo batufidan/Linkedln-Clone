@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 
-
 const  Header = (props) => {
   return (
     <Container>
@@ -51,7 +50,6 @@ const  Header = (props) => {
                             <span>Notifications</span>
                         </a>
                     </NavList>
-
                     <User>
                         <a>
                             <img src='/images/user.svg' alt="" />
